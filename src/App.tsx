@@ -1,10 +1,10 @@
-import './App.css'
-import { MainModule } from './modules/mainModule/mainModule'
-
+import { AppRoutes } from '.'
+// import './App.css'
+import './styles.css'
 function App() {
   return (
     <>
-      <MainModule/>
+      <AppRoutes></AppRoutes>
     </>
   )
 }

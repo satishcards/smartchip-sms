@@ -1,8 +1,13 @@
+import { Link, useNavigate } from 'react-router-dom';
 
 /**
- * this function used for login
- * @returns element
+ * 
+ * Login Component
  */
-export const signup = () =>{
-    return <>SignUp</>
+export const Login = () => {
+    const navigate = useNavigate();
+    const login = () => {
+        navigate('/')
+    }
+    return <button onClick={() => login()}>Login</button>
 }
