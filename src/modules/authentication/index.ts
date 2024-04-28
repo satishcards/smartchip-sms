@@ -1,5 +1,3 @@
-import { Login } from "./login/login";
+import { Login } from "./login/Login";
 
-export {
-    Login
-}
+export{Login}
